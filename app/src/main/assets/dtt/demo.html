@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>touch-tab</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/touch-style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="test1" class="touch-tab">
+        <ul class="tab-con" data-num="0">
+            <li class="cur"><a href=""><img src="images/i1.jpg" alt="" /></a></li>
+            <li><a href=""><img src="images/i2.jpg" alt="" /></a></li>
+            <li><a href=""><img src="images/i3.jpg" alt="" /></a></li>
+            <li><a href=""><img src="images/i4.jpg" alt="" /></a></li>
+        </ul>
+        <ul class="tab-num">
+            <li class="cur"><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+        </ul>
+    </div>
+
+    <script src="js/1.js" type="text/javascript"></script>
+    <script src="js/jquery.event.move.js" type="text/javascript"></script>
+    <script src="js/hjh-touch-move.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        $(function(){
+
+            $("#test1").hjhTouch();
+
+        });
+    </script>
+</body>
+</html>

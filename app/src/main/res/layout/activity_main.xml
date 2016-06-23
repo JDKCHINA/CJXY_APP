@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="bottom"
+            android:background="#f2f2f2">
+
+            <RadioGroup
+                android:id="@+id/main_radio"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_home"
+                    style="@style/main_tab_bottom"
+                    android:layout_width="match_parent"
+                    android:drawableTop="@drawable/tabs_home"
+                    android:drawablePadding="2dp"
+                    android:text="校园"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/radio_mention"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/tabs_sort"
+                    android:drawablePadding="2dp"
+                    android:text="地图" />
+
+                <RadioButton
+                    android:id="@+id/radio_person_info"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/tabs_search"
+                    android:drawablePadding="2dp"
+                    android:text="生活" />
+
+                <RadioButton
+                    android:id="@+id/radio_more"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/tabs_more"
+                    android:drawablePadding="2dp"
+                    android:text="我的" />
+            </RadioGroup>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

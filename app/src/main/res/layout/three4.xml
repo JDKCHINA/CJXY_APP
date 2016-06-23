@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="关于我们"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#004c92"
+        android:textSize="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="#dedede"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="长职校园"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="V1.3"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="151.5dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffff">
+
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/arrow" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="新媒体中心                                                               "
+                    android:textSize="15dp"
+                    android:id="@+id/button1"
+                    android:background="#00000000" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="51dp"
+                android:background="#ffffff"
+                android:layout_gravity="center_horizontal|top">
+
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/arrow" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="开发团队                                                                   "
+                    android:textSize="15dp"
+                    android:id="@+id/button2"
+                    android:background="#00000000" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="101.5dp"
+                android:background="#ffffff"
+                android:layout_gravity="center_horizontal|top">
+
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/arrow" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="版本更新                                                                   "
+                    android:textSize="15dp"
+                    android:id="@+id/button3"
+                    android:background="#00000000" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

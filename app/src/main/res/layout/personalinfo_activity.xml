@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dedede"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="生活"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#004c92"
+        android:textSize="22dp"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_gravity="center_horizontal">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView1"
+            android:background="#dedede"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="#dedede"
+        android:layout_marginTop="0dp">
+        <requestFocus android:layout_gravity="center_horizontal|top" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/xs" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arrow" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="新 生                                             "
+                android:textSize="15dp"
+                android:id="@+id/button1"
+                android:background="#00000000" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60.5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/lx" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arrow" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="路 线                                              "
+                android:textSize="15dp"
+                android:id="@+id/button2"
+                android:background="#00000000"
+
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="125.5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ms" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arrow" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="美 食                                               "
+                android:textSize="15dp"
+                android:id="@+id/button3"
+                android:background="#00000000"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="176dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/zs" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arrow" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="住 宿                                               "
+                android:textSize="15dp"
+                android:id="@+id/button4"
+                android:background="#00000000"
+
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="226.5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/yw" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arrow" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="游 玩                                               "
+                android:textSize="15dp"
+                android:id="@+id/button5"
+                android:background="#00000000"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

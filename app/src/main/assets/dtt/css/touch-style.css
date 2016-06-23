@@ -1,0 +1,14 @@
+body{ margin: 0; }
+.touch-tab{ position: relative; margin: 0 auto; }
+.touch-tab ul{ padding: 0; margin: 0; }
+.touch-tab ul li{ list-style: none outside; }
+.tab-con{ position: relative; width: 100%; height: 100%; overflow: hidden; }
+.tab-con>li{ position: absolute; top: 0; left: 0; width: 100%; display: none; }
+.tab-con>li.cur{ display: block; }
+.tab-con>li img{ display: block; width: 100%; }
+.tab-num{ position: absolute; text-align: center; width: 100%; left: 0; bottom: 0; }
+.tab-num>li{ display: inline-block; }
+.tab-num>li span{ display: block; width: 10px; height: 10px; background-color: #ccc; border-radius: 100%; text-indent: -999em;  }
+.tab-num>li.cur span{ background-color: #F886B6; }
+
+

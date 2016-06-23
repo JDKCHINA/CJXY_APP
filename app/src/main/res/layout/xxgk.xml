@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="学校概况"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#004c92"
+        android:textSize="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="#dedede"
+        android:layout_gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center_horizontal|top">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/pagegk" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="128dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="历史沿革"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#fa6e03"
+                android:id="@+id/button2"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginLeft="243dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="校歌校词"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#78797b"
+                android:id="@+id/button3"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="13dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="长江职院"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#033cfa"
+                android:id="@+id/button1"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="301dp"
+            android:layout_marginLeft="13dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="校训"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#fc035a"
+                android:id="@+id/button4"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="217dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="301dp"
+            android:layout_marginLeft="128dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="校徽"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#ffa200"
+                android:id="@+id/button5"
+                android:layout_gravity="center" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="332dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="404dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginLeft="13dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="院系介绍"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="#0080ff"
+                android:id="@+id/button6"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
