@@ -48,7 +48,7 @@
                 android:text="历史沿革"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#fa6e03"
+                android:background="#b1b208"
                 android:id="@+id/button2"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -65,7 +65,7 @@
                 android:text="校歌校词"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#78797b"
+                android:background="#a09b87"
                 android:id="@+id/button3"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -81,7 +81,7 @@
                 android:text="长江职院"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#033cfa"
+                android:background="#0080c1"
                 android:id="@+id/button1"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -97,7 +97,7 @@
                 android:text="校训"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#fc035a"
+                android:background="#c9a40d"
                 android:id="@+id/button4"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -114,7 +114,7 @@
                 android:text="校徽"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#ffa200"
+                android:background="#00458e"
                 android:id="@+id/button5"
                 android:layout_gravity="center" />
         </FrameLayout>
