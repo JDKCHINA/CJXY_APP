@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">长职校园</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alert_quit_confirm">确认退出长职校园？</string>
+    <string name="alert_yes_button">确认</string>
+    <string name="alert_no_button">取消</string>
+    <string name="alerm_title">友情提示</string>
+    <string name="text_cancel">取消</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:text="路   线                "
+            android:id="@+id/textView"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#004c92"
+            android:textSize="20dp"/>
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:background="#004c92"
+            android:layout_height="48dp"
+            android:layout_gravity="left">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_marginTop="1.3dp"
+                android:layout_height="50dp"
+                android:background="@drawable/tab_back"
+                android:id="@+id/imageButton10"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dedede">
+        <requestFocus android:layout_gravity="center_horizontal|top" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/x1" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="汉口火车站→长职                                       "
+                android:textSize="15dp"
+                android:id="@+id/button1"
+                android:background="@drawable/anxia" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="56.5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/x2" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="武昌火车站/宏碁客运站→长职                 "
+                android:textSize="15dp"
+                android:id="@+id/button2"
+                android:background="@drawable/anxia"
+
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="113dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/x3" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="武汉火车站→长职                                       "
+                android:textSize="15dp"
+                android:id="@+id/button3"
+                android:background="@drawable/anxia"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="169.5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/x4" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text=" 傅家坡客运站→长职                                   "
+                android:textSize="15dp"
+                android:id="@+id/button4"
+                android:background="@drawable/anxia"
+
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="226dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top">
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/x5" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="武汉天河机场→长职                                  "
+                android:textSize="15dp"
+                android:id="@+id/button5"
+                android:background="@drawable/anxia"
+
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

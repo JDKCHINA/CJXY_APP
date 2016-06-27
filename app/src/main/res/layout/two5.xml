@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:text="开发团队                "
+            android:id="@+id/textView"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#004c92"
+            android:textSize="20dp"/>
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:background="#004c92"
+            android:layout_height="48dp"
+            android:layout_gravity="left">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_marginTop="1.3dp"
+                android:layout_height="50dp"
+                android:background="@drawable/tab_back"
+                android:id="@+id/imageButton10"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView3"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

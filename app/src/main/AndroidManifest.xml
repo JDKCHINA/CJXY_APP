@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cjxy.com.zs">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".TransitionActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home.HomeActivity"/>
+        <activity android:name=".home.DD8" android:noHistory= "true"/>
+        <activity android:name=".home.Five" android:noHistory= "true"/>
+        <activity android:name=".home.Four" android:noHistory= "true"/>
+        <activity android:name=".home.Seven" android:noHistory= "true"/>
+        <activity android:name=".home.Six" android:noHistory= "true"/>
+        <activity android:name=".home.Nina" android:noHistory= "true"/>
+        <activity android:name=".home.Three" android:noHistory= "true"/>
+        <activity android:name=".MentionActivity"/>
+        <activity android:name=".MoreActivity"/>
+        <activity android:name=".PersonInfoActivity"/>
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".MainActivity" android:noHistory= "true"/>
+        <activity android:name=".One" android:noHistory= "true"/>
+        <activity android:name=".Second" android:noHistory= "true"/>
+        <activity android:name=".xq.Dxq"/>
+        <activity android:name=".xq.Lxq"/>
+        <activity android:name=".xq.Xxq"/>
+        <activity android:name=".xy.One1" android:noHistory= "true"/>
+        <activity android:name=".xy.Two1"  android:noHistory= "true"/>
+        <activity android:name=".xy.Three1" android:noHistory= "true"/>
+        <activity android:name=".xy.Five1" android:noHistory= "true"/>
+        <activity android:name=".xy.Four1" android:noHistory= "true"/>
+        <activity android:name=".luxian.Five2" android:noHistory= "true"/>
+        <activity android:name=".luxian.Four2" android:noHistory= "true"/>
+        <activity android:name=".luxian.One2" android:noHistory= "true"/>
+        <activity android:name=".luxian.Three2" android:noHistory= "true"/>
+        <activity android:name=".luxian.Two2" android:noHistory= "true"/>
+        <activity android:name=".page4.Three4" android:noHistory= "true"/>
+        <activity android:name=".page4.Two4" android:noHistory= "true"/>
+        <activity android:name=".page4.One4" android:noHistory= "true"/>
+        <activity android:name=".page4.Five4" android:noHistory= "true"/>
+        <activity android:name=".page4.Four4" android:noHistory= "true"/>
+        <activity android:name=".gywm.One5" android:noHistory= "true"/>
+        <activity android:name=".gywm.Two5" android:noHistory= "true"/>
+        <activity android:name=".page1.Five6" android:noHistory= "true"/>
+        <activity android:name=".page1.Four6" android:noHistory= "true"/>
+        <activity android:name=".page1.Six6" android:noHistory= "true"/>
+        <activity android:name=".page1.One6" android:noHistory= "true"/>
+        <activity android:name=".page1.Three6" android:noHistory= "true"/>
+        <activity android:name=".page1.Two6" android:noHistory= "true"/>
+    </application>
+
+
+</manifest>
