@@ -4,9 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageButton;
 
+import cjxy.com.zs.MainActivity;
 import cjxy.com.zs.One;
 import cjxy.com.zs.R;
 
@@ -16,6 +19,15 @@ public class Five6 extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.five6);
+        ImageButton gobackActivityButton = (ImageButton) findViewById(R.id.imageButton10);
+        gobackActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent();
+                myIntent = new Intent(Five6.this, One.class);
+                startActivity(myIntent);
+            }
+        });
         webview = (WebView) findViewById(R.id.webView3);
         webview.getSettings().setLoadWithOverviewMode(true);
 

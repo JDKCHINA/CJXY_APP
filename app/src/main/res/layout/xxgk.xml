@@ -4,15 +4,37 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <TextView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="学校概况"
-        android:id="@+id/textView"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
-        android:background="#004c92"
-        android:textSize="20dp"/>
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:text="学校概况                "
+            android:id="@+id/textView"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#004c92"
+            android:textSize="20dp"/>
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:background="#004c92"
+            android:layout_height="48dp"
+            android:layout_gravity="left">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_marginTop="1.3dp"
+                android:layout_height="50dp"
+                android:background="@drawable/tab_back"
+                android:id="@+id/imageButton10"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </FrameLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -48,7 +70,7 @@
                 android:text="历史沿革"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#b1b208"
+                android:background="@drawable/tab_b"
                 android:id="@+id/button2"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -65,7 +87,7 @@
                 android:text="校歌校词"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#a09b87"
+                android:background="@drawable/tab_c"
                 android:id="@+id/button3"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -81,7 +103,7 @@
                 android:text="长江职院"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#0080c1"
+                android:background="@drawable/tab_a"
                 android:id="@+id/button1"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -97,7 +119,7 @@
                 android:text="校训"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#c9a40d"
+                android:background="@drawable/tab_d"
                 android:id="@+id/button4"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -114,7 +136,7 @@
                 android:text="校徽"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#00458e"
+                android:background="@drawable/tab_e"
                 android:id="@+id/button5"
                 android:layout_gravity="center" />
         </FrameLayout>
@@ -131,7 +153,7 @@
                 android:text="院系介绍"
                 android:textColor="#ffffff"
                 android:textSize="13dp"
-                android:background="#0080ff"
+                android:background="@drawable/tab_f"
                 android:id="@+id/button6"
                 android:layout_gravity="center" />
         </FrameLayout>

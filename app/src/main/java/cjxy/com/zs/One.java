@@ -10,6 +10,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import cjxy.com.zs.page1.Five6;
 import cjxy.com.zs.page1.Four6;
@@ -34,6 +35,15 @@ public class One extends Activity {
         Button goFourActivityButton = (Button) findViewById(R.id.button4);
         Button gofiveActivityButton = (Button) findViewById(R.id.button5);
         Button gosixActivityButton = (Button) findViewById(R.id.button6);
+        ImageButton gobackActivityButton = (ImageButton) findViewById(R.id.imageButton10);
+        gobackActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent();
+                myIntent = new Intent(One.this, MainActivity.class);
+                startActivity(myIntent);
+            }
+        });
         goSecondActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -12,5 +12,19 @@
     <color name="backgroundcolor">#fff0f1f1</color>
     <color name="gray">#ff8aaef2</color>
     <color name="more_color">#ff3b3b3b</color>
+    <color name="anniu">#00ffffff</color>
+    <color name="anxia">#73aacef4</color>
     <color name="text_hint_color">#ff9c9d9d</color>
+    <color name="b1">#2d80f1</color>
+    <color name="b2">#0f6ef0</color>
+    <color name="c1">#b6b6b6</color>
+    <color name="c2">#9c9b9b</color>
+    <color name="d1">#deab51</color>
+    <color name="d2">#dba13a</color>
+    <color name="e1">#e5bd3d</color>
+    <color name="e2">#e5b829</color>
+    <color name="f1">#5daadb</color>
+    <color name="f2">#409fdc</color>
+    <color name="h1">#0d61d3</color>
+    <color name="h2">#0656c3</color>
 </resources>

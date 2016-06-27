@@ -22,7 +22,7 @@ public class Xxq extends Activity {
         //设置WebView属性，能够执行Javascript脚本
         webview.getSettings().setJavaScriptEnabled(true);
         //加载需要显示的网页
-        webview.loadUrl("http://jiejing.qq.com/#pano=10141003150506160258800&heading=351&pitch=9&zoom=1&isappinstalled=-1&poi=0");
+        webview.loadUrl("http://l.map.qq.com/12131514590?m");
         //设置Web视图
         webview.setWebViewClient(new HelloWebViewClient ());
     }

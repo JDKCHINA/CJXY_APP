@@ -40,7 +40,7 @@
                     style="@style/main_tab_bottom"
                     android:layout_width="match_parent"
                     android:drawableTop="@drawable/tabs_home"
-                    android:drawablePadding="2dp"
+                    android:drawablePadding="0.5dp"
                     android:text="校园"
                     android:checked="false" />
 
@@ -48,21 +48,21 @@
                     android:id="@+id/radio_mention"
                     style="@style/main_tab_bottom"
                     android:drawableTop="@drawable/tabs_sort"
-                    android:drawablePadding="2dp"
+                    android:drawablePadding="0.5dp"
                     android:text="地图" />
 
                 <RadioButton
                     android:id="@+id/radio_person_info"
                     style="@style/main_tab_bottom"
                     android:drawableTop="@drawable/tabs_search"
-                    android:drawablePadding="2dp"
+                    android:drawablePadding="0.5dp"
                     android:text="生活" />
 
                 <RadioButton
                     android:id="@+id/radio_more"
                     style="@style/main_tab_bottom"
                     android:drawableTop="@drawable/tabs_more"
-                    android:drawablePadding="2dp"
+                    android:drawablePadding="0.5dp"
                     android:text="我的" />
             </RadioGroup>
         </FrameLayout>

@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import cjxy.com.zs.MainActivity;
 import cjxy.com.zs.R;
@@ -28,6 +29,16 @@ public class Two1 extends Activity {
         Button goThreeActivityButton = (Button) findViewById(R.id.button3);
         Button goFourActivityButton = (Button) findViewById(R.id.button4);
         Button gofiveActivityButton = (Button) findViewById(R.id.button5);
+        ImageButton gobackActivityButton = (ImageButton) findViewById(R.id.imageButton10);
+        gobackActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent();
+                myIntent = new Intent(Two1.this, MainActivity.class);
+                myIntent.putExtra("name",50);
+                startActivity(myIntent);
+            }
+        });
         goSecondActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
