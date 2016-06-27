@@ -54,16 +54,16 @@
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="330dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="11.5dp"
                 android:src="@drawable/arrow" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="新 生                                             "
+                android:text="新 生                                               "
                 android:textSize="15dp"
                 android:id="@+id/button1"
-                android:background="#00000000" />
+                android:background="@drawable/anxia" />
         </FrameLayout>
 
         <FrameLayout
@@ -83,16 +83,16 @@
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="330dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="11.5dp"
                 android:src="@drawable/arrow" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="路 线                                              "
+                android:text="路 线                                               "
                 android:textSize="15dp"
                 android:id="@+id/button2"
-                android:background="#00000000"
+                android:background="@drawable/anxia"
 
                 />
 
@@ -115,7 +115,7 @@
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="330dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="11.5dp"
                 android:src="@drawable/arrow" />
 
             <Button
@@ -124,7 +124,7 @@
                 android:text="美 食                                               "
                 android:textSize="15dp"
                 android:id="@+id/button3"
-                android:background="#00000000"
+                android:background="@drawable/anxia"
 
                 />
         </FrameLayout>
@@ -146,7 +146,7 @@
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="330dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="11.5dp"
                 android:src="@drawable/arrow" />
 
             <Button
@@ -155,7 +155,7 @@
                 android:text="住 宿                                               "
                 android:textSize="15dp"
                 android:id="@+id/button4"
-                android:background="#00000000"
+                android:background="@drawable/anxia"
 
                 />
 
@@ -178,7 +178,7 @@
                 android:layout_width="23dp"
                 android:layout_height="23dp"
                 android:layout_marginLeft="330dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="11.5dp"
                 android:src="@drawable/arrow" />
 
             <Button
@@ -187,7 +187,7 @@
                 android:text="游 玩                                               "
                 android:textSize="15dp"
                 android:id="@+id/button5"
-                android:background="#00000000"
+                android:background="@drawable/anxia"
 
                 />
         </FrameLayout>

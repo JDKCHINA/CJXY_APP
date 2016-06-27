@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>开发团队</title>
+
 <style type="text/css">
 .ys1 {
 	text-align: center;
@@ -10,16 +11,28 @@
 </style>
 </head>
 
-<body>
-<table width="100%" border="0">
-  <tr>
-    <th scope="col"><a href="http://weibo.com/LiuChengRuiRuiRui"><img src="lcr.png" width="162" height="162" /></a></th>
-    <th scope="col"><a href="http://weibo.com/935341417"><img src="zzj.png" width="162" height="162" /></a></th>
-  </tr>
-  <tr>
-    <td class="ys1"><a href="http://weibo.com/u/5726970732"><img src="mbx.png" width="162" height="162" /></a></td>
-    <td class="ys1"><a href="http://weibo.com/u/2730552754"><img src="wzt.png" width="130" height="130" /></a></td>
-  </tr>
-</table>
+<body class="ys1">
+<p>&nbsp;</p>
+<p><img src="tdtp.png" width="300" height="300" usemap="#Map" border="0" /></p>
+<p>
+  <map name="Map" id="Map">
+    <area shape="rect" coords="2,2,146,150" href="http://weibo.com/LiuChengRuiRuiRui" />
+    <area shape="rect" coords="153,4,306,150" href="http://weibo.com/935341417" />
+    <area shape="rect" coords="2,157,149,301" href="http://weibo.com/u/5726970732" />
+    <area shape="rect" coords="156,158,300,299" href="http://weibo.com/u/2730552754" />
+  </map>
+</p>
+<p>&nbsp;</p>
+<button id="linkTo">加入我们</button>
+
+<script type="text/javascript">
+function buttonLinkTo(id,url){
+document.getElementById(id).onclick = function(){
+open(url);
+}
+}
+buttonLinkTo("linkTo","https://jinshuju.net/f/WRW4Pk");
+//buttonLinkTo("按钮元素的ID","链接的地址");
+</script>
 </body>
 </html>

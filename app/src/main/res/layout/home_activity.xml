@@ -132,7 +132,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton1"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/a1"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -142,7 +142,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton3"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/c1"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
@@ -152,7 +152,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton2"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/b1"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -161,7 +161,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton4"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/d1"
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@+id/imageButton2"
             android:layout_toStartOf="@+id/imageButton2" />
@@ -171,7 +171,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton5"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/e1"
             android:layout_alignTop="@+id/imageButton4"
             android:layout_toRightOf="@+id/imageButton4"
             android:layout_toEndOf="@+id/imageButton4" />
@@ -181,7 +181,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton6"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/f1"
             android:layout_alignTop="@+id/imageButton5"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
@@ -191,7 +191,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton7"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/g1"
             android:layout_below="@+id/imageButton4"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -201,7 +201,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton9"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/i1"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
@@ -211,7 +211,7 @@
             android:layout_height="100dp"
             android:id="@+id/imageButton8"
             android:src="@drawable/button"
-            android:background="#00000000"
+            android:background="@drawable/h1"
             android:layout_below="@+id/imageButton4"
             android:layout_toRightOf="@+id/imageButton4"
             android:layout_toEndOf="@+id/imageButton4" />
@@ -240,7 +240,7 @@
         <WebView
             android:layout_width="match_parent"
             android:layout_height="215dp"
-            android:id="@+id/webView10"
+            android:id="@+id/webView1"
             android:layout_gravity="center_horizontal|top" />
     </FrameLayout>
 

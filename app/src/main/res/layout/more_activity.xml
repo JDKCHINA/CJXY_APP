@@ -43,7 +43,7 @@
             android:layout_gravity="center_horizontal|bottom">
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="0dp"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal|top">
@@ -51,51 +51,51 @@
                     android:layout_width="23dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:src="@drawable/tab4_more" />
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="23dp"
-                    android:layout_marginLeft="340dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="11.5dp"
                     android:src="@drawable/arrow" />
 
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="50dp"
                     android:text="校园官网                                             "
                     android:textSize="15dp"
                     android:id="@+id/button1"
-                    android:background="#00000000" />
+                    android:background="@drawable/anxia" />
             </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginTop="56.5dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50.5dp"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal|top">
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:src="@drawable/communication" />
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="23dp"
-                    android:layout_marginLeft="340dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="11.5dp"
                     android:src="@drawable/arrow" />
 
 
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="50dp"
                     android:text="办公电话                                            "
                     android:textSize="15dp"
                     android:id="@+id/button2"
-                    android:background="#00000000"
+                    android:background="@drawable/anxia"
 
                     />
 
@@ -103,61 +103,61 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginTop="123dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="110.5dp"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal|top">
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:src="@drawable/timetable" />
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="23dp"
-                    android:layout_marginLeft="340dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="11.5dp"
                     android:src="@drawable/arrow" />
 
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="50dp"
                     android:text="关于我们                                             "
                     android:textSize="15dp"
                     android:id="@+id/button3"
-                    android:background="#00000000"
+                    android:background="@drawable/anxia"
 
                     />
             </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginTop="179.5dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="161dp"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal|top">
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:src="@drawable/reflect" />
 
 
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="23dp"
-                    android:layout_marginLeft="340dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="11.5dp"
                     android:src="@drawable/arrow" />
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="50dp"
                     android:text="用户反馈                                            "
                     android:textSize="15dp"
                     android:id="@+id/button4"
-                    android:background="#00000000"
+                    android:background="@drawable/anxia"
 
                     />
 
@@ -165,32 +165,30 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginTop="236dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="211.5dp"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal|top">
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:src="@drawable/about" />
 
                 <ImageView
                     android:layout_width="23dp"
                     android:layout_height="23dp"
-                    android:layout_marginLeft="340dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="11.5dp"
                     android:src="@drawable/arrow" />
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="56dp"
+                    android:layout_height="50dp"
                     android:text="关于软件                                            "
                     android:textSize="15dp"
                     android:id="@+id/button5"
-                    android:background="#00000000"
-
-                    />
+                    android:background="@drawable/anxia"/>
             </FrameLayout>
         </FrameLayout>
     </FrameLayout>

@@ -4,13 +4,17 @@ import android.app.AlertDialog;
 import android.app.TabActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.RadioButton;
 import android.widget.TabHost;
+
+import java.io.File;
 
 import cjxy.com.zs.home.HomeActivity;
 
@@ -34,7 +38,7 @@ public class MainActivity extends TabActivity implements OnCheckedChangeListener
 
 	//���嵥ѡ��ť����
 	private RadioButton homeRb,mentionRb,personRb,moreRb;
-	
+
 	//������Ϣ��ʾ�ı�����
 private Intent intent;
 	@Override
@@ -42,17 +46,18 @@ private Intent intent;
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
+
+
 		initView();
 		initData();
 	}
-	
 	/**
-	 * ��ʼ�����
+	 * 清除WebView缓存
 	 */
 	private void initView(){
 		//�õ�TabHost
 		mTabHost = getTabHost();
-		
+
 		//�õ�Intent����
 		mHomeIntent = new Intent(this, HomeActivity.class);
 		mMentionIntent = new Intent(this, MentionActivity.class);
@@ -61,14 +66,14 @@ private Intent intent;
 
 		//�õ���Ϣ��ʾ�ı�����
 
-		
+
 		//�õ���ѡ��ť����
 		homeRb = ((RadioButton) findViewById(R.id.radio_home));
 		mentionRb = ((RadioButton) findViewById(R.id.radio_mention));
 		personRb = ((RadioButton) findViewById(R.id.radio_person_info));
 		moreRb = ((RadioButton) findViewById(R.id.radio_more));
 	}
-	
+
 	/**
 	 * ��ʼ������
 	 */
@@ -78,7 +83,7 @@ private Intent intent;
 		mentionRb.setOnCheckedChangeListener(this);
 		personRb.setOnCheckedChangeListener(this);
 		moreRb.setOnCheckedChangeListener(this);
-		
+
 		//����Ϣ��ʾ�ı���������
 
 		//��ӽ�Tabѡ�
@@ -103,15 +108,14 @@ private Intent intent;
 			mTabHost.setCurrentTabByTag(HOME_TAB);
 		}
 
-	}						
+	}
 
 	private TabHost.TabSpec buildTabSpec(String tag, Intent intent) {
 		TabHost.TabSpec tabSpec = mTabHost.newTabSpec(tag);
 		tabSpec.setContent(intent).setIndicator("");
-		
+
 		return tabSpec;
 	}
-
 	/**
 	 * Tab��ťѡ�м����¼�
 	 */

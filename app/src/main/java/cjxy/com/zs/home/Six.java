@@ -7,8 +7,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import cjxy.com.zs.MainActivity;
@@ -21,6 +23,15 @@ public class Six extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.six);
+        ImageButton gobackActivityButton = (ImageButton) findViewById(R.id.imageButton10);
+        gobackActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent();
+                myIntent = new Intent(Six.this, MainActivity.class);
+                startActivity(myIntent);
+            }
+        });
         Toast.makeText(Six.this, "如果你想退出，请点击多次！",Toast.LENGTH_SHORT).show();
         webview = (WebView) findViewById(R.id.webView3);
         //设置WebView属性，能够执行Javascript脚本

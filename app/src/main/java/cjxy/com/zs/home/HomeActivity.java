@@ -25,11 +25,11 @@ public class HomeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.home_activity);
-		webview = (WebView) findViewById(R.id.webView10);
+		webview = (WebView) findViewById(R.id.webView1);
 		//设置WebView属性，能够执行Javascript脚本
 		webview.getSettings().setJavaScriptEnabled(true);
 		//加载需要显示的网页
-		webview.loadUrl("file:///android_asset/dtt/demo.html");
+		webview.loadUrl("file:///android_asset/dtt/page1.html");
 		//设置Web视图
 		webview.setWebViewClient(new HelloWebViewClient ());
 		ImageButton goSecondActivityButton = (ImageButton) findViewById(R.id.imageButton3);
@@ -140,5 +140,16 @@ public class HomeActivity extends Activity {
 			view.loadUrl(url);
 			return true;
 		}
+	}
+	@Override
+	protected void onResume() {
+		super.onResume();
+		webview.loadUrl("file:///android_asset/dtt/page1.html");
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		webview.onPause();
 	}
 }

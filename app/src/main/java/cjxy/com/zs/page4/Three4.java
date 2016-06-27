@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import cjxy.com.zs.MainActivity;
@@ -22,6 +23,16 @@ public class Three4 extends Activity {
         Button goSecondActivityButton = (Button) findViewById(R.id.button1);
         Button goOneActivityButton = (Button) findViewById(R.id.button2);
         Button goThreeActivityButton = (Button) findViewById(R.id.button3);
+        ImageButton gobackActivityButton = (ImageButton) findViewById(R.id.imageButton10);
+        gobackActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent();
+                myIntent = new Intent(Three4.this, MainActivity.class);
+                myIntent.putExtra("name",60);
+                startActivity(myIntent);
+            }
+        });
         goSecondActivityButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
